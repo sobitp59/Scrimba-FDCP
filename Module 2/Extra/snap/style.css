@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Epilogue:wght@300;500;700;900&family=Nanum+Pen+Script&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+
+.main{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.nav__logo-lists{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.nav__logo{
+    margin-right: 1.5rem;
+}
+
+.nav__offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__lists{
+    margin: 0 1rem;
+    list-style: none;
+    text-align: center;
+}
+
+.nav__drop{
+    display: flex;
+}
+.nav__drop i{
+    margin-left: 0.3rem ;
+}
+
+.nav__buttons{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__btn{
+    background-color: hsl(0, 0%, 98%);
+    padding: 0.7rem 2rem;
+    margin: 0.4rem;
+    border: none;
+}
+
+.nav--border{
+    border: 1px solid hsl(0, 0%, 8%);
+    border-radius: 0.5rem;
+}
+
+.main-body{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px dashed black;
+}
+
+.main-body__left{
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.main-body__right{
+    border: 1px dashed black;
+}
+
+.main-body__header{
+    font-size: 3.7rem;
+    color: hsl(0, 0%, 8%);
+    margin-bottom: 3rem;
+}
+
+.main-body__description{
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 41%);
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.main-body__learn{
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    padding: 1rem;
+    border: 1px dashed blue;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    margin-bottom: 3rem;
+    border-radius: 0.5rem;
+}
+
+.main-body__logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-body__logo{
+    width: 70px;
+}
+
+
+
+
+
+.main-body__hero{
+    width: 400px;
+}
