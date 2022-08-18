@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+    
+}
+
+.conatainer{
+    text-align: center;
+    width: 70%;
+    border-left: 2px solid rgb(25, 0, 39);
+    border-right: 2px solid rgb(25, 0, 39);
+    margin: auto;
+}
+
+.header{
+    background-image: url('images/header.jpg');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(25, 0, 39);
+
+    
+}
+
+.header-title{
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    margin: 0;
+}
+
+.header-emp{
+    background: rgba(236, 158, 255, 0.741);
+    padding: 8px 15px;
+    border: 2px solid rgb(25, 0, 39);
+    text-shadow: 0 0 2px rgb(25, 0, 39);
+}
+
+.header-info{
+    font-size: 14px;
+    margin: 30px 100px;
+    color: rgb(25, 0, 39);
+    line-height: 20px;
+    background: rgba(43, 255, 0, 0.391);
+    padding: 30px;
+    border: 2px solid rgb(25, 0, 39);
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0;
+    border-bottom: 2px solid rgb(25, 0, 39);
+    background-color: rgba(255, 124, 124, 0.377);
+}
+
+.main-img{
+    width: 150px;
+    height: 100px;
+    border: 2px solid rgb(25, 0, 39);
+
+}
+
+.place-title{
+    margin: 20px 0;
+    font-size: 20px;
+    color: rgb(25, 0, 39);
+}
+
+.place-info{
+    margin: 0 8px ;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    color: rgb(25, 0, 39);
+}
+
+.footer{
+    padding: 50px 0;
+}
+
+.guide{
+    border: 2px solid rgb(25, 0, 39);
+    width: 500px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    background-color: rgba(255, 255, 100, 0.604);
+    color: rgb(25, 0, 39);
+
+}
+
+.guide-img{
+    width: 200px;
+    margin: 15px;
+    border: 2px solid rgb(25, 0, 39);
+
+}
+
+.guide-info{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-title,
+.guide-info,
+.guide-name{
+    margin: 15px 10px;
+}
