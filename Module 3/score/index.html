@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Epilogue:wght@300;500;700;900&family=Happy+Monkey&family=Michroma&family=Nanum+Pen+Script&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Count Score</title>
+</head>
+<body>
+    
+
+        <!-- Main Container -->
+        <div class="container">
+            
+            <div class="home score_div">
+                <h1 class="player">home</h1>
+                <h2 class="home_score scores">0</h2>
+                <div class="score_btns">
+                    <button onclick="btn11()" class="btn_plus">+1</button>
+                    <button onclick="btn12()" class="btn_plus">+2</button>
+                <button onclick="btn13()" class="btn_plus">+3</button>
+            </div>
+            <h3 class="leadPlayer">Lead : ----- </h3>
+        </div>
+        
+        <div class="guest score_div">
+            <h1 class="player">guest</h1>
+            <h2 class="guest_score scores">0</h2>
+            <div class="score_btns">
+                <button onclick="btn21()" class="btn_plus">+1</button>
+                <button onclick="btn22()" class="btn_plus">+2</button>
+                <button onclick="btn23()" class="btn_plus">+3</button>
+            </div>
+            <button onclick="newBtn()" class="newGameBtn">New Game</button>
+        </div>
+        
+        
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

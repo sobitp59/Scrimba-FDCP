@@ -1,0 +1,74 @@
+@font-face{
+    font-family: timer;
+    src: url(timer.ttf);
+}
+
+.container{
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background: rgb(231, 191, 255);
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+
+.player{
+    font-size: 3rem;
+    color: rgb(49, 47, 83);
+}
+
+.scores{
+    font-size: 7rem;
+    background: rgb(255, 181, 181);
+    border: 2px dashed black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 30px 30px 20px 30px;
+    color: rgb(80, 80, 80);
+    font-family: timer;
+}
+
+.score_div{
+    width: 40%;
+}
+
+.score_btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.btn_plus{
+    width: 70px;
+    height: 50px;
+    margin: 0 5px;
+    background: rgb(245, 255, 198);
+    border: 2px dashed black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.btn_plus:hover{
+    background: rgb(188, 255, 199);
+}
+
+.newGameBtn{
+    width: 210px;
+    padding: 15px 0;
+    border: 2px dashed black;
+    background-color: rgb(166, 255, 166);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.leadPlayer{
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
