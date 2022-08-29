@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Epilogue:wght@300;500;700;900&family=Happy+Monkey&family=Michroma&family=Nanum+Pen+Script&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    background: rgb(23, 0, 51);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50vw;
+    margin: auto;
+}
+
+.main-title{
+    color: white;
+}
+
+.main-title + p{
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+}
+.main-title span{
+        color: rgb(0, 85, 255)
+}
+
+.pass-validators{
+    color: white;
+    width: 90%;
+}
+
+.pass-validators-title{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+
+
+/* INPUT RANGE */
+input[type=range]{
+    margin: 1rem 0;
+}
+
+input[type=range]::-webkit-slider-runnable-track{
+    height: 4px;
+}
+
+input[type=range]::-webkit-slider-thumb{
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+#pass-gen-btn{
+    width: 90%;
+    height: 45px;
+    margin: 1.5rem 0;
+    background: rgb(0, 85, 255);
+    color: rgb(23, 0, 51);
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Space Grotesk', sans-serif;
+    border-radius: 8px;
+
+
+}
+
+label{
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+}
+
+/* INPUT RANGE */
+
+.password{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pass-one-copy, .pass-two-copy{
+    background: rgb(0, 85, 255);
+    border: none;
+    padding: 0.4rem 0.6rem;
+    color: white;
+    margin-left: 0.5rem;
+    border-radius: 3px;
+}
+
+
+.pass-validators-title{
+    display: flex;
+    justify-content: space-between;
+}
+.pass-validators-inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.pass-word{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 45px;
+    font-size: 0.9rem;
+    background-color: rgba(0, 85, 255,0.2);
+    color: white;
+    border-radius: 8px;
+
+}
+
+@media (max-width : 450px){
+    .main{
+        width: 80vw;
+    }
+
+
+}
