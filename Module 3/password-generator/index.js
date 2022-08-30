@@ -66,10 +66,15 @@ passwordGenBtn.addEventListener('click',()=>{
 
 passOneCopyBtn.addEventListener('click', ()=>{
     let text =  document.querySelector('#pass-one')
+
     let cb = navigator.clipboard;
     cb.writeText(text.textContent)
     .then(()=>{
-        alert("Password Copied!")
+        if(text.textContent === ''){
+            alert('Please Generate Password First 😼')
+        }else{
+            alert("Password Copied! 😸")
+        }
     })
 })
 
@@ -78,6 +83,10 @@ passTwoCopyBtn.addEventListener('click', ()=>{
     let cb = navigator.clipboard;
     cb.writeText(text.textContent)
     .then(()=>{
-        alert("Password Copied!")
+        if(text.textContent === ''){
+            alert('Please Generate Password First 😼')
+        }else{
+            alert("Password Copied! 😸")
+        }
     })
 })

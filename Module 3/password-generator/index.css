@@ -68,6 +68,7 @@ input[type=range]::-webkit-slider-thumb{
     font-family: 'Space Grotesk', sans-serif;
     border-radius: 8px;
     outline: none;
+    border: none;
 }
 
 label{
@@ -75,7 +76,7 @@ label{
     margin-top: 0.4rem;
 }
 
-/* INPUT RANGE */
+
 
 .password{
     margin: 1rem;
