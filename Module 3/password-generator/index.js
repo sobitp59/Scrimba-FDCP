@@ -64,20 +64,20 @@ passwordGenBtn.addEventListener('click',()=>{
 
 })
 
-
-
 passOneCopyBtn.addEventListener('click', ()=>{
-      /* Get the text field */
-let passOne = document.querySelector('.pass-one')
+    let text =  document.querySelector('#pass-one')
+    let cb = navigator.clipboard;
+    cb.writeText(text.textContent)
+    .then(()=>{
+        alert("Password Copied!")
+    })
+})
 
-
-  /* Select the text field */
-  passOne.select();
-  passOne.setSelectionRange(0, 99999); /* For mobile devices */
-
-   /* Copy the text inside the text field */
-  navigator.clipboard.writeText(passOne.value);
-
-  /* Alert the copied text */
-  alert("Copied the text: " + passOne.value);
+passTwoCopyBtn.addEventListener('click', ()=>{
+    let text =  document.querySelector('#pass-two')
+    let cb = navigator.clipboard;
+    cb.writeText(text.textContent)
+    .then(()=>{
+        alert("Password Copied!")
+    })
 })
