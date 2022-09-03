@@ -16,7 +16,6 @@
 }
 
 .header{
-    height: 35vh;
     background: #6D28D9;
     display: flex;
     justify-content: center;
@@ -32,7 +31,7 @@
 
 .header__input{
     width: 117px;
-    height: 83px;
+    height: min-content;
     margin: auto;
     outline: none;
     padding: 15px;
