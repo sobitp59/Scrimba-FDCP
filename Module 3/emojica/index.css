@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+html {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    padding: 10px;
+    background: rgb(14, 13, 13);
+}
+
+#emoji-container {
+    margin: 40px;
+    text-align: center;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+#push-btn, #unshift-btn {
+    
+    background-color: #63ff61;
+    columns: black;
+}
+
+#shift-btn,#pop-btn {
+    columns: black;
+    background-color: #fb596f;
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+}
+
+
+input {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    height: 70px;
+    background: white;
+    border-radius: 6px;
+    text-align: center;
+}
+
+span{
+    border: 1px dashed yellow;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button {
+    font-family: Baloo;
+    background: darkcyan;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+
+
+
+

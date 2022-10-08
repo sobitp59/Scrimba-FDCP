@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+@media (max-width:480px){
+    .container{
+        width: 100%;
+    }
+
+    .logo{
+        width: 140px;
+        height: 40px;
+    }
+
+    .user-avatar{
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+    }
+
+    .user-navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+        border-bottom: 1.2px solid rgba(128, 128, 128, 0.479);
+    }
+
+
+    .post-section-user{
+        display: flex;
+        padding: 10px;
+    }
+
+    .post-section-avatar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .post-avatar{
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+    }
+
+    .post-section-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 7px;
+    }
+
+    .post-section-name, .post-section-location{
+        font-size: 14px;
+    }
+
+    .post-section-name{
+        font-weight: bold;
+    }
+
+    .post-section-post{
+        width: 100%;
+    }
+
+
+    .post-section-interaction{
+        padding: 21px 16px;
+    }
+    .post-section-likeCommentDM{
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: start;
+    }
+
+
+    .post-section-likeCommentDM img{
+        width: 28px;
+        margin-right: 8px;
+    }
+
+    .post-section-likes{
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .post-section-caption span{
+        font-weight: bold;
+    }
+
+    .post-section-divider{
+        width: 100%;
+        height: 30px;
+        background-color: rgba(147, 147, 147, 0.433);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
