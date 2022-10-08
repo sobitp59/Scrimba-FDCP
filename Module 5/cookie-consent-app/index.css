@@ -179,3 +179,13 @@ input{
     box-shadow: 1px 1px 3px #999;
     border-radius: 5px;
 }
+
+
+
+/* Responsive */
+@media (max-width : 480px){
+    main{
+        width: 90%;
+        margin: auto;
+    }   
+}
