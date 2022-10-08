@@ -186,6 +186,7 @@ input{
 @media (max-width : 480px){
     main{
         width: 90%;
+        height: 100vh;
         margin: auto;
     }   
 }
