@@ -30,7 +30,7 @@ Generate password that is secure
 <table>
   <tr>
     <td width="50%">
-     <img src="weatherly.gif" width="100%" alt="Password Generator"/>
+     <img src="https://s9.gifyu.com/images/password.gif" width="100%" alt="Password Generator"/>
      </td>
   </tr>
 </table>
